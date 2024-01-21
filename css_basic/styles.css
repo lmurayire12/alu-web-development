@@ -1,5 +1,16 @@
+header {
+	nav a:hover:after {
+    content: "\1F3C8";
+}
+
+}
 body { display: flex;
 	flex-direction: column;
+	color: cyan;
+	font-size: 20px;
+	background-color: pink;
+
+
 
 
 }
@@ -11,7 +22,8 @@ main { display: flex;
 }
 article { flex: 2;
 	overflow-y: auto;
-	
+	background-color: black;
+	font-color: white;
 	
 }
 aside {
